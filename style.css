@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     text-align: center;
     padding-top: 10%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     text-transform: uppercase;
 }
 
@@ -53,11 +53,12 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .vk {
     padding: 5px;
     color: inherit;
-    background-color: #8b8b8b;
-    height: 5%;
+    /* background-color: #8b8b8b; */
+    height: 10%;
 }
-.vk:hover{
-    color: red;
+.vk img{
+    object-fit: cover;
+    width: 50%;
 }
 
 
