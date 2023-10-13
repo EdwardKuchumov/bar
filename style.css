@@ -149,9 +149,11 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .wemenu{
     
     z-index: 110;
-    background-color: #f83030;
-    background-image: url(./img/asIzzoYWBKc.jpg);
+    background-color: #000000;
+    background-image: url(./img/border-menu.jpg);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
     width: 100vw;
     height: 100vh;
     display: flex;
