@@ -30,7 +30,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     background-image: url(./img/SS_bez_fona.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 150%;
 }
 .header {
     /* background-color: #ff4848; */
@@ -38,7 +38,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: right;
+    padding: 20px;
 }
 .main {
     /* background-color: #eeff50; */
@@ -151,6 +152,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 .wemenu2{
     z-index: 110;
     background-color: #222121;
+    background-image: url(./img/asIzzoYWBKc.jpg);
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -173,6 +175,9 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     font-weight: 600;
     padding-bottom: 48px;
     color: #ffffff;
+}
+.menu li:hover{
+    color: red;
 }
 .active{
     top: -200vh;
