@@ -20,10 +20,10 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
     height: 100vh;
     width: 100vw;
     overflow: hidden;
-    background-image: url(./img/FCEfxy36JeU.jpg);
+    background-image: url(./img/space-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-color: #000;
+    background-color: #6d6d6d;
     position: relative;
 }
 .container {
